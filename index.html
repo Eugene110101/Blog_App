@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog App</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <!-- <h1>Blog App</h1> -->
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="header-post">Новый пост</h2>
+
+                <input
+                    class="post-title"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Заголовок"
+                />
+
+                <textarea
+                    class="post-text"
+                    type="text"
+                    placeholder="Текст"
+                ></textarea>
+
+                <button class="post-button">Опубликовать</button>
+
+                <div
+                    id="validationMessage"
+                    class="validationMessage validationMessage_hidden"
+                >
+                </div>
+            </div>
+
+            <div class="col">
+                <h2 class="header-post">Лента</h2>
+
+                <div class="js-posts posts">Лента пуста...</div>
+            </div>
+        </div>
+    </div>
+        <script src="app.js"></script>
+    </body>
+</html>

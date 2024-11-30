@@ -1,0 +1,66 @@
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.header-post {
+    font-size: 30px;
+}
+
+.post-title {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+    font-weight: 400;
+
+}
+
+.post-text {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.posts {
+    width: 300px;
+    font-size: 16px;
+
+}
+
+.post-date {
+    color: blue;
+}
+
+.post-button {
+    display: block;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.posts {
+    width: 100px;
+    height: 400px;
+}
+
+.validationMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+.validationMessage_hidden {
+    display: none;
+}
+
